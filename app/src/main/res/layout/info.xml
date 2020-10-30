@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:columnCount="9"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/info_btn_sale"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="9"
+        android:layout_columnWeight="1"
+        android:layout_marginEnd="8dp"
+        android:text="@string/info_btn_sale"
+        android:textAllCaps="false" />
+
+
+    <EditText
+        android:id="@+id/info_et_q"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/allModel_q"
+        android:inputType="number"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/info_tv_id"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/info_tv_model"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/info_tv_size"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="@string/info_tv_color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="@string/info_tv_quantity"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:text="@string/info_tv_price"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/info_btn_minus"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="-"
+        android:textSize="18sp"
+        app:srcCompat="@drawable/remove" />
+
+    <CheckBox
+        android:id="@+id/info_chBox"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/info_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/info_tv_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/info_tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/info_tv_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/info_tv_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/info_tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/info_btn_plus"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_columnWeight="0"
+        android:gravity="center"
+        android:text="+"
+        android:textSize="18sp"
+        app:srcCompat="@drawable/add" />
+
+</GridLayout>
